@@ -20,6 +20,7 @@ class PlayerList extends React.Component {
     render() {
         return (
             <div>
+                <h1>players</h1>
             {this.state.players.map(player => <li key={player.id}>
                 <h2>Name: {player.name}</h2>
                 <h2>Country: {player.country}</h2>
